@@ -12,13 +12,14 @@ html {
 body {
    
     font-size: 1.6rem;
-    background-color: red;
+    
 }
 .wrapper {
  /*   display: flex;
     max-width: 1020px;
     margin: 0 auto;
     padding: 0 40px;*/
+    max-width: 1020px;
 }
 header{
     display: flex;
@@ -99,4 +100,21 @@ background-color: #f06c64;
 }
 .h{
     padding: 70px 0 0 40px;
+}
+.prev{
+    z-index: 100;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    cursor: pointer;
+}
+.next{
+    z-index: 10;
+    position: absolute;
+    top: 350px;
+    left: 980px;
+    cursor: pointer;
+}
+.layout-3-column{
+    display: flex;
 }
