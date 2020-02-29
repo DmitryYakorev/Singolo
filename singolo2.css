@@ -1,1 +1,25 @@
- 
+html {
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+   
+    font-size: 1.6rem;
+    
+}
+.wrapper {
+ /*   display: flex;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;*/
+    max-width: 1020px;
+}
+.title{
+    font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
