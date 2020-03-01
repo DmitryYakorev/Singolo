@@ -14,6 +14,8 @@ body {
     margin: 0 auto;
     padding: 0 40px;*/
     max-width: 1020px;
+    background-color: #2d303a;
+    height: 862px;
 }
 .title{
     font-size: 30px;
@@ -21,5 +23,15 @@ line-height: 18px;
 color: #666d89;
 font-family: "Lato";
 font-weight: 900;
+text-align: left;
+}
+.portfolio__text{
+    width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
 text-align: left;
 }
