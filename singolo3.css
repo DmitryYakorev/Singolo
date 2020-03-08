@@ -126,13 +126,4 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}.footer {
-    padding: 22px;
-    background-color: #2d303a;
-}
-
-.footer__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
