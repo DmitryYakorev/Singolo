@@ -1,3 +1,138 @@
 *{
     box-sizing: border-box;
 }
+.quoter__title{
+    font-size: 30px;
+line-height: 18px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+.quoter{
+    
+    background-color: #f06c64;
+    
+    padding: 66px 0 6px;
+}
+.quoter__text{
+    width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.form2{
+    padding:0 7px;
+    width: 66.6%;
+    
+}
+.inner{
+    display: block;
+    padding: 12px 15px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+
+    color: #f48c8f;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    outline: none;
+}
+.inner::placeholder {
+    color: #f48c8f;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.area {
+    resize: none;
+    height: 202px;
+}
+.quoter__info {
+    width: 33.3%;
+    padding:0 12px;
+}
+.quoter__contact_title {
+    margin-bottom: 9px;
+    font-family: "Lato Black", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #f0d8d9;
+}
+.quoter__contact_text {
+    text-align: justify;
+    margin: 24px 0;
+    max-width: 300px;
+    color: #f0d8d9;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+
+    
+    
+}
+.quoter__contact_list {
+    list-style: none;
+}
+.quoter__contact_things {
+    padding-left: 2px;
+    margin-bottom: 1px;
+}
+.button {
+    display: block;
+    
+    font-size: 15 px;
+    font-family: 'Lato Regular', sans-serif;
+    
+    background-color: #d6564f;
+    color: black;
+
+    cursor: pointer;
+
+    
+}
+
+.button:hover{
+    color: red;
+    
+}
+.quoter__link {
+    
+    color: #f0d8d9;
+    font-family: 'Lato regular', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 22px;
+    background-color: #2d303a;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.footer {
+    padding: 22px;
+    background-color: #2d303a;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
