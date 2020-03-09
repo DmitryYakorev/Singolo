@@ -211,7 +211,7 @@ display: flex;
 flex-wrap: wrap;
 overflow: hidden;
 }
-.about__employee_text1{
+.about__employee_text2{
     width: 300px;
 height: 175px;
 font-size: 12px;
@@ -357,4 +357,12 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: #f0d8d9;
+    font-family: 'Lato regular', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
 }
