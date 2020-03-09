@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    background-color: #2d303a;
    
     font-size: 1.6rem;
     
@@ -134,6 +135,9 @@ background-color: #f06c64;
     left: 980px;
     cursor: pointer;
 }
+.services{
+    background-color: white;
+}
 .layout-3-column{
     display: flex;
 }
@@ -147,7 +151,7 @@ body {
     font-size: 1.6rem;
     
 }*/
-.wrapper2{
+.wrapper21{
  /*   display: flex;
     max-width: 1020px;
     margin: 0 auto;
