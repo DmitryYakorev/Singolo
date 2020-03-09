@@ -152,8 +152,8 @@ background-color: #f06c64;
  /*   padding: 53px 0 0 72px;*/
 
 .v{
-    padding: 1px 0 0 0px;
-    margin: -25px 0 0 100px;
+    padding: 5px 50px 0 0px;
+    margin: -25px 5px 0 108px;
 }
 .hor__mob{
     display: flex;
@@ -163,24 +163,25 @@ background-color: #f06c64;
   /*  padding: 174px 0 0 73px;*/
 }
 .h{
-    padding: 70px 0 0 40px;
+    padding: 71px 25px 0 58px;
 }
 .prev{
     z-index: 100;
     position: absolute;
-    top: 350px;
-    left: 20px;
+    top: 377px;
+    left: 37px;
     cursor: pointer;
 }
 .next{
     z-index: 10;
     position: absolute;
-    top: 350px;
-    left: 980px;
+    top: 377px;
+    left: 963px;
     cursor: pointer;
 }
 .services{
     background-color: white;
+    height: 370px;
 }
 .layout-3-column{
     display: flex;
