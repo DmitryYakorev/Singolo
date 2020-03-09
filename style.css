@@ -96,16 +96,28 @@ text-align: left;
     cursor: pointer;
     color: #f06c64;
 }
-li{
-    
-}
+
 .text1{
+    width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
 
     align-items: center;
     justify-content: space-between;
     color: #666d89;
 }
 .title1{
+    font-size: 30px;
+line-height: 18px;
+
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
 
     align-items: center;
     justify-content: space-between;
@@ -185,6 +197,10 @@ background-color: #f06c64;
 }
 .layout-3-column{
     display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex-basis: 30%;
 }
 /*html {
     font-size: 10px;
