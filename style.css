@@ -27,6 +27,16 @@ header{
     width: 1020px;
     height: 89px;
     background-color: #2d303a;
+    padding: 8px 22px;
+}
+.header__logo{
+    margin: 38px 15px;
+    font-size: 25px;
+line-height: 6px;
+color: #ffffff;
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
 }
 h1{
     color: #ffffff;
@@ -38,16 +48,50 @@ h1{
     padding: 0 20px;
 }
 
-.nav__list__item{
+.nav__list__1item1{
+  /*  padding: 42px 0px;*/
+    margin: 20px -2px;
+    font-size: 12px;
+line-height: 6px;
+
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
     padding: 0 20px;
     cursor: pointer;
     color: #ffffff;
 }
 .nav__list__item_active{
+    padding: 22px 7px;
+    margin: 0 2px;
+    font-size: 12px;
+line-height: 6px;
+
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
     cursor: pointer;
     color: #f06c64; 
 }
-.nav__list__item:hover{
+.nav__list__1item1:hover{
+    padding: 0 20px;
+    cursor: pointer;
+    color: #f06c64;
+}
+.nav__list__2item2{
+    /*  padding: 42px 0px;*/
+      margin: 20px 1px;
+      font-size: 12px;
+  line-height: 6px;
+  
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+      padding: 0 20px;
+      cursor: pointer;
+      color: #ffffff;
+}
+.nav__list__2item2:hover{
     padding: 0 20px;
     cursor: pointer;
     color: #f06c64;
