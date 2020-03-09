@@ -193,15 +193,43 @@ background-color: #f06c64;
 }
 .services{
     background-color: white;
-    height: 370px;
+    /*height: 370px;*/
 }
 .layout-3-column{
     display: flex;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;*/
 }
-.column{
+.layout-3-column > * {
+    flex-basis: 26%;
+}
+.services__column1{
+    flex-basis: 30%;
+    
+    
+}
+.text11{
+    
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+
+    
+}
+.info{
+    width: 300px;
+}
+.services__column2{
     flex-basis: 30%;
 }
+  /*  height: 100px;*/
+    
+
+
 /*html {
     font-size: 10px;
     font-family: 'Lato', sans-serif;
