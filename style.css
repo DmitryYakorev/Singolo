@@ -42,6 +42,10 @@ h1{
     cursor: pointer;
     color: #ffffff;
 }
+.nav__list__item_active{
+    cursor: pointer;
+    color: #f06c64; 
+}
 .nav__list__item:hover{
     padding: 0 20px;
     cursor: pointer;
