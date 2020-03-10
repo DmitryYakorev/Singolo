@@ -136,8 +136,8 @@ background-color: #323746;
 }
 .wrapper1{
     max-width: 1020px;
-height: 615px;
-background-color: #f06c64;
+height: 1100px;
+
 
 }
 /*main{
@@ -194,7 +194,7 @@ background-color: #f06c64;
 }
 .services{
     background-color: white;
-    /*height: 370px;*/
+    height: 500px;
 }
 .layout-3-column{
     display: flex;
@@ -211,18 +211,38 @@ background-color: #f06c64;
     
 }
 .text11{
+
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+
     
+}
+.text12{
+    width: 940px;
+height: 57px;
 font-size: 18px;
 line-height: 30px;
 color: #767e9e;
 font-family: "Lato";
 font-weight: 300;
 text-align: left;
-
-    
 }
 .title11{
     font-size: 18px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+.title12{
+    font-size: 30px;
 line-height: 18px;
 color: #666d89;
 font-family: "Lato";
