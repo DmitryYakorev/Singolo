@@ -233,6 +233,7 @@ color: #767e9e;
 font-family: "Lato";
 font-weight: 300;
 text-align: left;
+padding-left: 32px;
 }
 .title11{
     font-size: 18px;
@@ -249,6 +250,7 @@ color: #666d89;
 font-family: "Lato";
 font-weight: 900;
 text-align: left;
+padding-left: 32px;
 }
 .info{
     width: 300px;
@@ -332,8 +334,12 @@ text-align: left;
 .a4-column{
 display: flex;
 flex-wrap: wrap;
-overflow: hidden;
+
 }
+:nth-child(+13){
+    display: none;
+}
+
 .about__employee_text2{
     width: 300px;
 height: 175px;
