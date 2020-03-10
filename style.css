@@ -358,6 +358,9 @@ font-family: "Lato";
 font-weight: 900;
 text-align: left;
 }
+.icon{
+    cursor: pointer;
+}
 *{
     box-sizing: border-box;
 }
