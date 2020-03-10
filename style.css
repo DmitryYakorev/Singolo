@@ -258,12 +258,30 @@ padding-left: 32px;
 .services__column2{
     flex-basis: 30%;
 }
+.services__column1{
+    display: flex;
+}
+.services__column2{
+    display: flex;
+}
+.services__column3{
+    display: flex;
+}
+.services__column4{
+    display: flex;
+}
+.services__column5{
+    display: flex;
+}
+.services__column6{
+    display: flex;
+}
 .pic1{
     width: 59px;
 height: 59px;
-border-radius: 29px;
-background-color: #eb5055;
-border: 2px solid #666d89;
+
+background-color: white;
+
 }
   /*  height: 100px;*/
     
@@ -325,6 +343,7 @@ text-align: left;
     height: 970px;
     background-color: white;
 }
+
 .about__text2{
     width: 940px;
 height: 57px;
@@ -364,6 +383,10 @@ color: #666d89;
 font-family: "Lato";
 font-weight: 900;
 text-align: left;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+width: 300px;
 }
 .icon{
     cursor: pointer;
