@@ -194,14 +194,25 @@ background-color: #f06c64;
 }
 .services{
     background-color: white;
-    height: 500px;
+    height: 700px;
     padding-top: 15px;
+}
+.info{
+    height: 130px;
 }
 .layout-3-column{
     display: flex;
    /* flex-wrap: wrap;
     height: auto;
     flex-direction: row;*/
+    padding-top: 30px;
+}
+.layout-3-column1{
+    display: flex;
+   /* flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;*/
+    
 }
 .layout-3-column > * {
     flex-basis: 26%;
@@ -313,6 +324,7 @@ color: #666d89;
 font-family: "Lato";
 font-weight: 900;
 text-align: left;
+padding-top: 8px;
 }
 .portfolio__text2{
     width: 940px;
@@ -390,6 +402,9 @@ width: 300px;
 }
 .icon{
     cursor: pointer;
+}
+.column1{
+    height: 200px;
 }
 *{
     box-sizing: border-box;
