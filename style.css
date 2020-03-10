@@ -195,6 +195,7 @@ background-color: #f06c64;
 .services{
     background-color: white;
     height: 500px;
+    padding-top: 15px;
 }
 .layout-3-column{
     display: flex;
