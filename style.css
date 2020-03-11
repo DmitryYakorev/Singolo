@@ -374,10 +374,21 @@ display: flex;
 flex-wrap: wrap;
 
 }
-:nth-child(+13){
+:nth-child(13){
     display: none;
 }
-
+:nth-child(14){
+    display: none;
+}
+:nth-child(15){
+    display: none;
+}
+:nth-child(16){
+    display: none;
+}
+:nth-child(17){
+    display: none;
+}
 .about__employee_text2{
     width: 300px;
 height: 45px;
