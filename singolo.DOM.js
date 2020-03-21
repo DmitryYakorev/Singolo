@@ -1,12 +1,12 @@
 const nav = document.querySelectorAll('.nlink');
 const as = document.querySelectorAll('a[href*="#"]');
 
-/*const services = document.getElementById('services');
+const services = document.getElementById('services');
 const portfolio = document.querySelector('portfolio');
 const about = document.getElementById('about');
 const contact = document.getElementById('contact');
 
-servicesH = services.offsetHeight;
+/*servicesH = services.offsetHeight;
     portfolioH = portfolio.offsetHeight;
     aboutH = about.offsetHeight;
     contactH = contact.offsetHeight;*/

@@ -61,6 +61,20 @@ text-align: left;
     cursor: pointer;
     color: #ffffff;
 }
+
+.nlink{
+    /*  padding: 42px 0px;*/
+      margin: 20px -2px;
+      font-size: 12px;
+  line-height: 6px;
+  
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+      padding: 0 20px;
+      text-decoration: none;
+      color: #ffffff;
+  }
 .nav__list__item_active{
     padding: 22px 7px;
     margin: 0 2px;
@@ -71,6 +85,18 @@ font-family: "Lato";
 font-weight: 700;
 text-align: left;
     cursor: pointer;
+    color: #f06c64; 
+}
+.link-active{
+    padding: 22px 7px;
+    margin: 0 2px;
+    font-size: 12px;
+line-height: 6px;
+
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
+text-decoration: none;
     color: #f06c64; 
 }
 .nav__list__1item1:hover{
